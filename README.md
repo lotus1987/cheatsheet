@@ -7,4 +7,5 @@ tar cvpzf backup.tgz --exclude=/proc --exclude=/lost+found --exclude=/backup.tgz
 
 # 使用下面的命令来恢复系统：
 tar xvpfz backup.tgz -C /
+
 mkdir (the dirs which exclude)
