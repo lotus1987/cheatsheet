@@ -3,7 +3,7 @@ common useful command
 
  备份linux 
 
-tar cvpzf backup.tgz --exclude=/proc --exclude=/lost+found --exclude=/backup.tgz --exclude=/mnt --exclude=/sys --exclude=/media  /
+tar cvpzf backup.tgz --exclude=/proc --exclude=/lost+found --exclude=/backup.tgz --exclude=/mnt --exclude=/sys --exclude=/media --exclude=/home/lotus/VirtualBox VMs --exclude=/home/lotus/vmware /
 
 #使用下面的命令来恢复系统：
 tar xvpfz backup.tgz -C /
